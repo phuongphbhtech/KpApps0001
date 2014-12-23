@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "SliderViewController.h"
+#import "LRNavigationController.h"
+#import "LeftVC.h"
+#import "RightVC.h"
+#import "MainViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
