@@ -32,7 +32,7 @@
     [imgV setImage:[UIImage imageNamed:@"2222"]];
     [self.view addSubview:imgV];
     
-    UITableView *tableV=[[UITableView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.height-200)];
+    UITableView *tableV=[[UITableView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height/3, self.view.frame.size.width, self.view.frame.size.height-(self.view.frame.size.height/3))];
     tableV.backgroundColor=[UIColor clearColor];
     tableV.delegate=self;
     tableV.dataSource=self;
