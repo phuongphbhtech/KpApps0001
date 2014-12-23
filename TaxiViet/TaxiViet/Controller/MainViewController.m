@@ -16,22 +16,36 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    [self initNavigationView];
+    [self.topView addSubview:navigationView];
+    navigationView.titleNvgLabel.text = @"Taxi Việt";
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)initNavigationView {
+    navigationView = [[NavigationView alloc]initWithFrame:CGRectZero];
+    navigationView.delegate = self;
+    CGRect navigationViewFrame = CGRectMake(0, 0, self.topView.frame.size.width, self.topView.frame.size.height);
+    navigationView.frame = navigationViewFrame;
 }
-*/
 
+- (void)leftNvgAction {
+    [[SliderViewController sharedSliderController] showLeftViewController];
+}
+
+- (IBAction)hanoiButtonAction:(id)sender {
+}
+
+- (IBAction)hcmButtonAction:(id)sender {
+}
+
+- (IBAction)vinhphucButtonAction:(id)sender {
+}
 @end
