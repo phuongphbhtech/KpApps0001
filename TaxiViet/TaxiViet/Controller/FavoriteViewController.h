@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NavigationView.h"
 
-@interface FavoriteViewController : UIViewController
+@interface FavoriteViewController : UIViewController<NavigationCustomViewDelegate>{
+    NavigationView *navigationView;
+}
+
+@property (weak, nonatomic) IBOutlet UIView *containerView;
+@property (weak, nonatomic) IBOutlet UIView *topView;
+@property (weak, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet UITableView *taxiContentTableView;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBarInFav;
 
 @end

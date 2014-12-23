@@ -29,6 +29,20 @@
 		9FEE0B3C1A4929FF0054970D /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B3A1A4929FF0054970D /* FavoriteViewController.xib */; };
 		9FEE0B411A494F750054970D /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE0B3F1A494F750054970D /* ShareViewController.m */; };
 		9FEE0B421A494F750054970D /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B401A494F750054970D /* ShareViewController.xib */; };
+		9FEE0B611A49552A0054970D /* about_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5B1A49552A0054970D /* about_icon@2x.png */; };
+		9FEE0B621A49552A0054970D /* favorite_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5C1A49552A0054970D /* favorite_icon@2x.png */; };
+		9FEE0B631A49552A0054970D /* home_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5D1A49552A0054970D /* home_icon@2x.png */; };
+		9FEE0B641A49552A0054970D /* menu_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5E1A49552A0054970D /* menu_button@2x.png */; };
+		9FEE0B651A49552A0054970D /* share_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5F1A49552A0054970D /* share_icon@2x.png */; };
+		9FEE0B661A49552A0054970D /* you_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B601A49552A0054970D /* you_icon@2x.png */; };
+		9FEE0B6C1A495C370054970D /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE0B6A1A495C370054970D /* NavigationView.m */; };
+		9FEE0B6D1A495C370054970D /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B6B1A495C370054970D /* NavigationView.xib */; };
+		9FEE0B711A495E960054970D /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE0B6F1A495E960054970D /* MainTableViewCell.m */; };
+		9FEE0B721A495E960054970D /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B701A495E960054970D /* MainTableViewCell.xib */; };
+		9FEE0B781A49671D0054970D /* HCMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE0B761A49671D0054970D /* HCMTableViewController.m */; };
+		9FEE0B791A49671D0054970D /* HCMTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B771A49671D0054970D /* HCMTableViewController.xib */; };
+		9FEE0B7D1A4967740054970D /* VPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE0B7B1A4967740054970D /* VPTableViewController.m */; };
+		9FEE0B7E1A4967740054970D /* VPTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B7C1A4967740054970D /* VPTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +93,24 @@
 		9FEE0B3E1A494F750054970D /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		9FEE0B3F1A494F750054970D /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		9FEE0B401A494F750054970D /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		9FEE0B5B1A49552A0054970D /* about_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B5C1A49552A0054970D /* favorite_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorite_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B5D1A49552A0054970D /* home_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B5E1A49552A0054970D /* menu_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_button@2x.png"; sourceTree = "<group>"; };
+		9FEE0B5F1A49552A0054970D /* share_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B601A49552A0054970D /* you_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "you_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B691A495C370054970D /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
+		9FEE0B6A1A495C370054970D /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
+		9FEE0B6B1A495C370054970D /* NavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
+		9FEE0B6E1A495E960054970D /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		9FEE0B6F1A495E960054970D /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		9FEE0B701A495E960054970D /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		9FEE0B751A49671D0054970D /* HCMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMTableViewController.h; sourceTree = "<group>"; };
+		9FEE0B761A49671D0054970D /* HCMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMTableViewController.m; sourceTree = "<group>"; };
+		9FEE0B771A49671D0054970D /* HCMTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCMTableViewController.xib; sourceTree = "<group>"; };
+		9FEE0B7A1A4967740054970D /* VPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPTableViewController.h; sourceTree = "<group>"; };
+		9FEE0B7B1A4967740054970D /* VPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPTableViewController.m; sourceTree = "<group>"; };
+		9FEE0B7C1A4967740054970D /* VPTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +152,7 @@
 		9F4B44A51A4851D9001AB8BA /* TaxiViet */ = {
 			isa = PBXGroup;
 			children = (
+				9FEE0B671A495C370054970D /* ThirdPage */,
 				9FEE0B2C1A4928FB0054970D /* Images */,
 				9FEE0B141A4927BB0054970D /* Controller */,
 				9FEE0B1A1A4927BB0054970D /* Model */,
@@ -166,6 +199,7 @@
 		9FEE0B141A4927BB0054970D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9FEE0B741A4967020054970D /* Page Data */,
 				9FEE0B151A4927BB0054970D /* MainViewController.h */,
 				9FEE0B161A4927BB0054970D /* MainViewController.m */,
 				9FEE0B171A4927BB0054970D /* MainViewController.xib */,
@@ -178,6 +212,9 @@
 				9FEE0B3E1A494F750054970D /* ShareViewController.h */,
 				9FEE0B3F1A494F750054970D /* ShareViewController.m */,
 				9FEE0B401A494F750054970D /* ShareViewController.xib */,
+				9FEE0B6E1A495E960054970D /* MainTableViewCell.h */,
+				9FEE0B6F1A495E960054970D /* MainTableViewCell.m */,
+				9FEE0B701A495E960054970D /* MainTableViewCell.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,11 +244,48 @@
 		9FEE0B2C1A4928FB0054970D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9FEE0B5B1A49552A0054970D /* about_icon@2x.png */,
+				9FEE0B5C1A49552A0054970D /* favorite_icon@2x.png */,
+				9FEE0B5D1A49552A0054970D /* home_icon@2x.png */,
+				9FEE0B5E1A49552A0054970D /* menu_button@2x.png */,
+				9FEE0B5F1A49552A0054970D /* share_icon@2x.png */,
+				9FEE0B601A49552A0054970D /* you_icon@2x.png */,
 				9FEE0B2D1A4928FB0054970D /* 1111.png */,
 				9FEE0B2E1A4928FB0054970D /* 2222.png */,
 				9FEE0B2F1A4928FB0054970D /* 3333.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		9FEE0B671A495C370054970D /* ThirdPage */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE0B681A495C370054970D /* Navigation View */,
+			);
+			path = ThirdPage;
+			sourceTree = "<group>";
+		};
+		9FEE0B681A495C370054970D /* Navigation View */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE0B691A495C370054970D /* NavigationView.h */,
+				9FEE0B6A1A495C370054970D /* NavigationView.m */,
+				9FEE0B6B1A495C370054970D /* NavigationView.xib */,
+			);
+			path = "Navigation View";
+			sourceTree = "<group>";
+		};
+		9FEE0B741A4967020054970D /* Page Data */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE0B751A49671D0054970D /* HCMTableViewController.h */,
+				9FEE0B761A49671D0054970D /* HCMTableViewController.m */,
+				9FEE0B771A49671D0054970D /* HCMTableViewController.xib */,
+				9FEE0B7A1A4967740054970D /* VPTableViewController.h */,
+				9FEE0B7B1A4967740054970D /* VPTableViewController.m */,
+				9FEE0B7C1A4967740054970D /* VPTableViewController.xib */,
+			);
+			path = "Page Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,13 +368,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEE0B721A495E960054970D /* MainTableViewCell.xib in Resources */,
 				9FEE0B421A494F750054970D /* ShareViewController.xib in Resources */,
+				9FEE0B661A49552A0054970D /* you_icon@2x.png in Resources */,
 				9F4B44B51A4851D9001AB8BA /* Main.storyboard in Resources */,
 				9F4B44BA1A4851D9001AB8BA /* LaunchScreen.xib in Resources */,
 				9FEE0B371A4929ED0054970D /* AboutViewController.xib in Resources */,
 				9FEE0B301A4928FB0054970D /* 1111.png in Resources */,
+				9FEE0B7E1A4967740054970D /* VPTableViewController.xib in Resources */,
+				9FEE0B641A49552A0054970D /* menu_button@2x.png in Resources */,
+				9FEE0B6D1A495C370054970D /* NavigationView.xib in Resources */,
+				9FEE0B621A49552A0054970D /* favorite_icon@2x.png in Resources */,
 				9FEE0B321A4928FB0054970D /* 3333.png in Resources */,
+				9FEE0B791A49671D0054970D /* HCMTableViewController.xib in Resources */,
+				9FEE0B631A49552A0054970D /* home_icon@2x.png in Resources */,
 				9FEE0B311A4928FB0054970D /* 2222.png in Resources */,
+				9FEE0B651A49552A0054970D /* share_icon@2x.png in Resources */,
+				9FEE0B611A49552A0054970D /* about_icon@2x.png in Resources */,
 				9F4B44B71A4851D9001AB8BA /* Images.xcassets in Resources */,
 				9FEE0B251A4927BB0054970D /* MainViewController.xib in Resources */,
 				9FEE0B3C1A4929FF0054970D /* FavoriteViewController.xib in Resources */,
@@ -327,8 +411,12 @@
 				9FEE0B281A4927BB0054970D /* LRNavigationController.m in Sources */,
 				9F4B44AF1A4851D9001AB8BA /* TaxiViet.xcdatamodeld in Sources */,
 				9F4B44AC1A4851D9001AB8BA /* AppDelegate.m in Sources */,
+				9FEE0B711A495E960054970D /* MainTableViewCell.m in Sources */,
+				9FEE0B6C1A495C370054970D /* NavigationView.m in Sources */,
 				9FEE0B291A4927BB0054970D /* RightVC.m in Sources */,
+				9FEE0B7D1A4967740054970D /* VPTableViewController.m in Sources */,
 				9F4B44A91A4851D9001AB8BA /* main.m in Sources */,
+				9FEE0B781A49671D0054970D /* HCMTableViewController.m in Sources */,
 				9FEE0B271A4927BB0054970D /* LeftVC.m in Sources */,
 				9FEE0B241A4927BB0054970D /* MainViewController.m in Sources */,
 				9FEE0B2A1A4927BB0054970D /* SliderViewController.m in Sources */,

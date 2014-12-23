@@ -2,9 +2,6 @@
 //  SliderViewController.m
 //  LeftRightSlider
 //
-//  Created by heroims on 13-11-27.
-//  Copyright (c) 2013年 heroims. All rights reserved.
-//
 
 #import "SliderViewController.h"
 #import <sys/utsname.h>

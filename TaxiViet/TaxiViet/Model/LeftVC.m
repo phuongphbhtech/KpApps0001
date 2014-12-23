@@ -2,9 +2,6 @@
 //  LeftViewController.m
 //  LeftRightSlider
 //
-//  Created by Zhao Yiqi on 13-11-27.
-//  Copyright (c) 2013年 Zhao Yiqi. All rights reserved.
-//
 
 #import "LeftVC.h"
 #import "SliderViewController.h"
@@ -32,7 +29,7 @@
     [imgV setImage:[UIImage imageNamed:@"2222"]];
     [self.view addSubview:imgV];
     
-    UITableView *tableV=[[UITableView alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.height-200)];
+    UITableView *tableV=[[UITableView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height/3, self.view.frame.size.width, self.view.frame.size.height-(self.view.frame.size.height/3))];
     tableV.backgroundColor=[UIColor clearColor];
     tableV.delegate=self;
     tableV.dataSource=self;
@@ -61,18 +58,22 @@
         case 0:
             cell.textLabel.text=@"TaxiViet";
             cell.textLabel.textColor = [UIColor whiteColor];
+            cell.imageView.image = [UIImage imageNamed:@"home_icon"];
             break;
         case 1:
             cell.textLabel.text=@"Favorite";
             cell.textLabel.textColor = [UIColor whiteColor];
+            cell.imageView.image = [UIImage imageNamed:@"favorite_icon"];
             break;
         case 2:
             cell.textLabel.text=@"About";
             cell.textLabel.textColor = [UIColor whiteColor];
+            cell.imageView.image = [UIImage imageNamed:@"about_icon"];
             break;
         case 3:
             cell.textLabel.text=@"Share";
             cell.textLabel.textColor = [UIColor whiteColor];
+            cell.imageView.image = [UIImage imageNamed:@"share_icon"];
             break;
 
         default:

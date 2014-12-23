@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NavigationView.h"
 
-@interface AboutViewController : UIViewController
+@interface AboutViewController : UIViewController<NavigationCustomViewDelegate>{
+    NavigationView *navigationView;
+}
+
+@property (weak, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet UIView *topView;
+@property (weak, nonatomic) IBOutlet UIView *containerView;
+@property (weak, nonatomic) IBOutlet UITextView *aboutTextView;
 
 @end
