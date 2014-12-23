@@ -17,6 +17,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    
+    [SliderViewController sharedSliderController].LeftVC=[[LeftVC alloc] init];
+    [SliderViewController sharedSliderController].RightVC=[[RightVC alloc] init];
+    [SliderViewController sharedSliderController].RightSContentOffset=260;
+    [SliderViewController sharedSliderController].RightSContentScale=0.68;
+    [SliderViewController sharedSliderController].RightSJudgeOffset=160;
+    
+    LRNavigationController *nav=[[LRNavigationController alloc] initWithRootViewController:[SliderViewController sharedSliderController]];
+    nav.contentScale=1;
+    nav.judgeOffset=100;
+    nav.startX=-200;
+    
+    self.window.rootViewController = nav;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
