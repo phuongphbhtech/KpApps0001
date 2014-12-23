@@ -29,6 +29,12 @@
 		9FEE0B3C1A4929FF0054970D /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B3A1A4929FF0054970D /* FavoriteViewController.xib */; };
 		9FEE0B411A494F750054970D /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE0B3F1A494F750054970D /* ShareViewController.m */; };
 		9FEE0B421A494F750054970D /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B401A494F750054970D /* ShareViewController.xib */; };
+		9FEE0B611A49552A0054970D /* about_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5B1A49552A0054970D /* about_icon@2x.png */; };
+		9FEE0B621A49552A0054970D /* favorite_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5C1A49552A0054970D /* favorite_icon@2x.png */; };
+		9FEE0B631A49552A0054970D /* home_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5D1A49552A0054970D /* home_icon@2x.png */; };
+		9FEE0B641A49552A0054970D /* menu_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5E1A49552A0054970D /* menu_button@2x.png */; };
+		9FEE0B651A49552A0054970D /* share_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B5F1A49552A0054970D /* share_icon@2x.png */; };
+		9FEE0B661A49552A0054970D /* you_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE0B601A49552A0054970D /* you_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +85,12 @@
 		9FEE0B3E1A494F750054970D /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		9FEE0B3F1A494F750054970D /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		9FEE0B401A494F750054970D /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		9FEE0B5B1A49552A0054970D /* about_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B5C1A49552A0054970D /* favorite_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorite_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B5D1A49552A0054970D /* home_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B5E1A49552A0054970D /* menu_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_button@2x.png"; sourceTree = "<group>"; };
+		9FEE0B5F1A49552A0054970D /* share_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_icon@2x.png"; sourceTree = "<group>"; };
+		9FEE0B601A49552A0054970D /* you_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "you_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +219,12 @@
 		9FEE0B2C1A4928FB0054970D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9FEE0B5B1A49552A0054970D /* about_icon@2x.png */,
+				9FEE0B5C1A49552A0054970D /* favorite_icon@2x.png */,
+				9FEE0B5D1A49552A0054970D /* home_icon@2x.png */,
+				9FEE0B5E1A49552A0054970D /* menu_button@2x.png */,
+				9FEE0B5F1A49552A0054970D /* share_icon@2x.png */,
+				9FEE0B601A49552A0054970D /* you_icon@2x.png */,
 				9FEE0B2D1A4928FB0054970D /* 1111.png */,
 				9FEE0B2E1A4928FB0054970D /* 2222.png */,
 				9FEE0B2F1A4928FB0054970D /* 3333.png */,
@@ -295,12 +313,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FEE0B421A494F750054970D /* ShareViewController.xib in Resources */,
+				9FEE0B661A49552A0054970D /* you_icon@2x.png in Resources */,
 				9F4B44B51A4851D9001AB8BA /* Main.storyboard in Resources */,
 				9F4B44BA1A4851D9001AB8BA /* LaunchScreen.xib in Resources */,
 				9FEE0B371A4929ED0054970D /* AboutViewController.xib in Resources */,
 				9FEE0B301A4928FB0054970D /* 1111.png in Resources */,
+				9FEE0B641A49552A0054970D /* menu_button@2x.png in Resources */,
+				9FEE0B621A49552A0054970D /* favorite_icon@2x.png in Resources */,
 				9FEE0B321A4928FB0054970D /* 3333.png in Resources */,
+				9FEE0B631A49552A0054970D /* home_icon@2x.png in Resources */,
 				9FEE0B311A4928FB0054970D /* 2222.png in Resources */,
+				9FEE0B651A49552A0054970D /* share_icon@2x.png in Resources */,
+				9FEE0B611A49552A0054970D /* about_icon@2x.png in Resources */,
 				9F4B44B71A4851D9001AB8BA /* Images.xcassets in Resources */,
 				9FEE0B251A4927BB0054970D /* MainViewController.xib in Resources */,
 				9FEE0B3C1A4929FF0054970D /* FavoriteViewController.xib in Resources */,
