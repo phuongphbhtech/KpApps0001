@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteViewController">
+            <connections>
+                <outlet property="containerView" destination="jlm-nS-2fp" id="Bqe-Mf-OtB"/>
+                <outlet property="contentView" destination="sIt-w6-O3n" id="ewP-0M-yix"/>
+                <outlet property="searchBarInFav" destination="2Tf-g3-g0P" id="Lfw-WD-cfM"/>
+                <outlet property="searchDisplayController" destination="aHk-ma-73B" id="zdW-7k-K7d"/>
+                <outlet property="taxiContentTableView" destination="dSZ-0l-W1z" id="RYZ-FP-fPL"/>
+                <outlet property="topView" destination="I5I-RQ-LLK" id="lOY-Pc-VGq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jlm-nS-2fp" userLabel="Container View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I5I-RQ-LLK" userLabel="Top View">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                            <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="G3y-cT-Spc"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sIt-w6-O3n" userLabel="Content View">
+                            <rect key="frame" x="0.0" y="40" width="320" height="440"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="dSZ-0l-W1z">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="440"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Tìm kiếm Taxi" id="2Tf-g3-g0P">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="-1" id="8bP-6L-98j"/>
+                                        </connections>
+                                    </searchBar>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="dSZ-0l-W1z" secondAttribute="bottom" id="C0F-FJ-TZL"/>
+                                <constraint firstAttribute="trailing" secondItem="dSZ-0l-W1z" secondAttribute="trailing" id="ML0-mm-s0u"/>
+                                <constraint firstItem="dSZ-0l-W1z" firstAttribute="leading" secondItem="sIt-w6-O3n" secondAttribute="leading" id="dHc-CF-jdx"/>
+                                <constraint firstItem="dSZ-0l-W1z" firstAttribute="top" secondItem="sIt-w6-O3n" secondAttribute="top" id="f1I-jB-75R"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="I5I-RQ-LLK" firstAttribute="top" secondItem="jlm-nS-2fp" secondAttribute="top" id="Ldn-KN-zgg"/>
+                        <constraint firstItem="I5I-RQ-LLK" firstAttribute="leading" secondItem="jlm-nS-2fp" secondAttribute="leading" id="ZS8-5z-lSw"/>
+                        <constraint firstAttribute="trailing" secondItem="sIt-w6-O3n" secondAttribute="trailing" id="m8Z-RC-Ok8"/>
+                        <constraint firstAttribute="bottom" secondItem="sIt-w6-O3n" secondAttribute="bottom" id="oJ3-ZS-X0A"/>
+                        <constraint firstItem="sIt-w6-O3n" firstAttribute="leading" secondItem="jlm-nS-2fp" secondAttribute="leading" id="sLg-Mh-0nM"/>
+                        <constraint firstItem="sIt-w6-O3n" firstAttribute="top" secondItem="I5I-RQ-LLK" secondAttribute="bottom" id="yFo-7w-p7o"/>
+                        <constraint firstAttribute="trailing" secondItem="I5I-RQ-LLK" secondAttribute="trailing" id="yIf-uK-DsJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="jlm-nS-2fp" secondAttribute="bottom" id="EYA-ei-CDZ"/>
+                <constraint firstAttribute="trailing" secondItem="jlm-nS-2fp" secondAttribute="trailing" id="Kx9-iA-aiL"/>
+                <constraint firstItem="jlm-nS-2fp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rcq-Q6-enl"/>
+                <constraint firstItem="jlm-nS-2fp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wpk-Po-Ksi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="386" y="340"/>
+        </view>
+        <searchDisplayController id="aHk-ma-73B">
+            <connections>
+                <outlet property="delegate" destination="-1" id="cpc-vV-ZBk"/>
+                <outlet property="searchBar" destination="2Tf-g3-g0P" id="4tA-qa-QQx"/>
+                <outlet property="searchContentsController" destination="-1" id="jfF-VS-wz4"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="OvC-aD-APs"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="pyH-qm-5lP"/>
+            </connections>
+        </searchDisplayController>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
